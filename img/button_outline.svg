@@ -1,9 +1,9 @@
-<svg width="69" height="47" viewBox="0 0 69 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="ARROW DOWN" filter="url(#filter0_d)">
-<path d="M2 2L27 30L52 2" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="177" height="66" viewBox="0 0 177 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<rect x="1.5" y="1.5" width="159" height="48" rx="3.5" stroke="#996234" stroke-width="3"/>
 </g>
 <defs>
-<filter id="filter0_d" x="-1.52588e-05" y="-2.28882e-05" width="69" height="47" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d" x="0" y="0" width="177" height="66" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dx="10" dy="10"/>
