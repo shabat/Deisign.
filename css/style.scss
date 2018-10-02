@@ -5,6 +5,7 @@ body,html{
     font-family:'Josefin Sans', sans-serif;
     height:100%;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: rgb(218, 214, 214);
@@ -13,6 +14,9 @@ h1,h2,h3,h4,h5,h6{
     font-family:  'Josefin Sans', sans-serif;
 }
 h1{font-size: 168px;}
+h4{
+    font-size: 16px;
+}
 
 a{
     color:white;
@@ -25,7 +29,9 @@ a:hover{
     text-decoration: underline;
 }
 
-
+.landing_container{
+    margin: 0 150px;
+}
 .landing{
     height: 100vh;
     /* background: linear-gradient(rgba(41, 41, 41, 0.5), rgba(41, 41, 41, 0.5)), url(../img/landing.jpg);  */
@@ -104,11 +110,12 @@ a:hover{
     font-size: 36px;
     font-weight: 700;
 }
-
+.container{
+    margin: 0 200px;
+}
 #about{
     margin-top: 50px;
     padding-top: 100px;
-    margin: 0 150px;
     height: 500px;
     outline: none;
 
@@ -140,21 +147,46 @@ a:hover{
 #work{
     margin-top: 50px;
     padding-top: 100px;
-    margin: 0 150px;
     height: 500px;
     outline: none;
-    text-align: right;
+    text-align: left;
+    height: 600px;
 
     .cards{
+        margin-top: 55px;
         width: 100%;
         display: flex;
-        justify-content: space-around;
-        align-content: space-around;
+        justify-content: center;
+        align-content: center;
 
         .card{
             background-color: #fff;
-            width: 270px;
-            height: 270px;
+            width: 300px;
+            height: 250px;
+            text-align: center;
+            padding-top: 50px;
+            margin: 0 20px;
+            border-radius: 5px;
+            transition: box-shadow 0.5s ease;
+
+            p{
+                font-size: 16px;
+                font-weight: 300;
+                padding: 0 55px;
+                text-align: center;
+            }
         }
+        .card:hover{
+            box-shadow: 10px 10px 10px rgba(0,0,0,.25);
+        }
+    }
+    .background_writing{
+        font-size: 288px;
+        color:rgba(98,89,84,0.1);
+        position: relative;
+        text-align: right;
+        top: -680px;
+        right: -200px;
+        z-index: -1;
     }
 }

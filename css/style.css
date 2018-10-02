@@ -4,6 +4,8 @@ body, html {
   font-family: 'Josefin Sans', sans-serif;
   height: 100%;
   margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -18,6 +20,10 @@ h1 {
   font-size: 168px;
 }
 
+h4 {
+  font-size: 16px;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -28,6 +34,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.landing_container {
+  margin: 0 150px;
 }
 
 .landing {
@@ -116,10 +126,13 @@ a:hover {
   font-weight: 700;
 }
 
+.container {
+  margin: 0 200px;
+}
+
 #about {
   margin-top: 50px;
   padding-top: 100px;
-  margin: 0 150px;
   height: 500px;
   outline: none;
 }
@@ -160,26 +173,58 @@ a:hover {
 #work {
   margin-top: 50px;
   padding-top: 100px;
-  margin: 0 150px;
   height: 500px;
   outline: none;
-  text-align: right;
+  text-align: left;
+  height: 600px;
 }
 
 #work .cards {
+  margin-top: 55px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 #work .cards .card {
   background-color: #fff;
-  width: 270px;
-  height: 270px;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 20px;
+  border-radius: 5px;
+  -webkit-transition: -webkit-box-shadow 0.5s ease;
+  transition: -webkit-box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease, -webkit-box-shadow 0.5s ease;
+}
+
+#work .cards .card p {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 55px;
+  text-align: center;
+}
+
+#work .cards .card:hover {
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+#work .background_writing {
+  font-size: 288px;
+  color: rgba(98, 89, 84, 0.1);
+  position: relative;
+  text-align: right;
+  top: -680px;
+  right: -200px;
+  z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */
