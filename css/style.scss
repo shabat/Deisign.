@@ -8,7 +8,7 @@ body,html{
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(218, 214, 214);
+    background-color: #E9E9E9;
 }
 h1,h2,h3,h4,h5,h6{
     font-family:  'Josefin Sans', sans-serif;
@@ -147,7 +147,6 @@ a:hover{
 #work{
     margin-top: 50px;
     padding-top: 100px;
-    height: 500px;
     outline: none;
     text-align: left;
     height: 600px;
@@ -189,4 +188,24 @@ a:hover{
         right: -200px;
         z-index: -1;
     }
+}
+#clients{
+    margin-top: 50px;
+    padding-top: 50px;
+    outline: none;
+    text-align: center;
+    padding-bottom: 100px;
+
+    .comp_logos{
+        padding: 40px 0;
+    }
+}
+
+footer{
+    width: 99.1vw;
+    height: 250px;
+    background-color: rgb(204, 200, 200);
+    position: relative;
+    bottom: 0;
+    left: -200px;
 }

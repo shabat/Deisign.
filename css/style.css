@@ -9,7 +9,7 @@ body, html {
 }
 
 body {
-  background-color: #dad6d6;
+  background-color: #E9E9E9;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -173,7 +173,6 @@ a:hover {
 #work {
   margin-top: 50px;
   padding-top: 100px;
-  height: 500px;
   outline: none;
   text-align: left;
   height: 600px;
@@ -226,5 +225,26 @@ a:hover {
   top: -680px;
   right: -200px;
   z-index: -1;
+}
+
+#clients {
+  margin-top: 50px;
+  padding-top: 50px;
+  outline: none;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+#clients .comp_logos {
+  padding: 40px 0;
+}
+
+footer {
+  width: 99.1vw;
+  height: 250px;
+  background-color: #ccc8c8;
+  position: relative;
+  bottom: 0;
+  left: -200px;
 }
 /*# sourceMappingURL=style.css.map */
